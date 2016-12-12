@@ -1,0 +1,26 @@
+{
+  "name": "facebook-picture-frame",
+  "version": "0.0.9",
+  "description": "Share your Facebook images on a digital picture frame.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CryptomasterLeviathan/facebook-picture-frame.git"
+  },
+  "author": "Matthew McCormick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CryptomasterLeviathan/facebook-picture-frame/issues"
+  },
+  "homepage": "https://github.com/CryptomasterLeviathan/facebook-picture-frame#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.12"
+  },
+  "dependencies": {
+    "fb": "^1.1.1",
+    "handlebars": "^4.0.6"
+  }
+}

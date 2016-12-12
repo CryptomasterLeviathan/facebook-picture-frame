@@ -1,0 +1,24 @@
+<html>
+<head>
+    <title>Digital Picture Frame</title>
+    <link rel="stylesheet" type="text/css" href="css/slideshow.css">
+</head>
+<body>
+    <div id="slideshow" class="slideshow-container">
+        <script id="image-template" type="text/x-handlebars-template">
+            {{#each data}}
+            <div class="mySlides fade">
+                <div class="numbertext">{{currIndex @index}} / {{../data.length}}</div>
+                <img src="{{source}}" style="width:100%">
+                <div class="text">{{name}}</div>
+            </div>
+            {{/each}}
+
+            <a class="prev" id="prevButton">&#10094;</a>
+            <a class="next" id="nextButton">&#10095;</a>
+        </script>
+    </div>
+
+    <script src="./js/slideshow.js"></script>
+</body>
+<html>
